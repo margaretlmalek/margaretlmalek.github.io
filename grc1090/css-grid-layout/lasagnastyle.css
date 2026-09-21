@@ -1,0 +1,206 @@
+/*CSS DOCUMENT*/
+
+html,
+body,
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%;
+    /*Please leave this line.*/
+    display: block;
+    margin: 0em 0em 2em 0em;
+}
+
+header {
+    background-color: rgb(255, 140, 40);
+    color: rgb(250, 250, 250);
+    padding: 20px;
+}
+
+figure {
+    background-color: rgb(250, 250, 250);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+figcaption {
+    font-size: 1.1em;
+    text-align: left;
+    margin: 1.5em 1.5em 2em 1.5em;
+    padding: .5em 0em .5em .5em;
+    line-height: 1.5;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color: rgb(250, 250, 250);
+}
+
+body {
+    line-height: 1;
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.container {
+    max-width: 75em;
+    margin: auto;
+}
+
+main {
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 1em 0em .5em .75em;
+    font-family: Sutro, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(250, 250, 250);
+    grid-column: 1/3;
+}
+
+h2 {
+    font-size: 2em;
+    margin: .5em 0em 1em 1.2em;
+    font-family: Sutro, serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(249, 222, 191);
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0em 0em 1em 1.2em;
+    padding: 1em 0em 0em 0em;
+    color: rgb(255, 140, 40);
+    text-transform: uppercase;
+    font-family: Sutro, serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .1em;
+    background-color: rgb(250, 250, 250);
+    border-top: 2px solid rgb(255, 140, 40);
+}
+
+footer {
+    background-color: rgb(255, 140, 40);
+    color: rgb(250, 250, 250);
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+li {
+    margin: 1.5em 0em;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 0em 0.5em 3em 2em;
+    font-size: 1em;
+    line-height: 1.7em;
+    background-color: rgb(250, 250, 250);
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0em 0em 3em 1.5em;
+    background-color: rgb(250, 250, 250);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
